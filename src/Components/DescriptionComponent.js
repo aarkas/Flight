@@ -7,7 +7,7 @@ const DescriptionComponent = ({departureValue = '', arrivalValue = ''}) => {
 
   return <>
     {isShow && <ListGroup style={{marginTop: '1rem'}}>
-      <ListGroup.Item>Partenza: {departureValue.airport} Arrivo: {arrivalValue.airport}</ListGroup.Item>
+      <ListGroup.Item>Abflug: {departureValue.airport} Ankunft: {arrivalValue.airport}</ListGroup.Item>
     </ListGroup>}
   </>
 }
